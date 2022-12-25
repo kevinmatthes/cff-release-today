@@ -20,71 +20,36 @@
 ################################################################################
 ##
 ##  AUTHOR      Kevin Matthes
-##  BRIEF       Release a new version of this project.
+##  BRIEF       Set the release date of the CITATION.cff to the present day.
 ##  COPYRIGHT   GPL-3.0
 ##  DATE        2022
-##  FILE        release.yml
+##  FILE        action.yml
 ##  NOTE        See `LICENSE' for full license.
 ##              See `README.md' for project details.
 ##
 ################################################################################
 
-name: release
+# The icon with which this Action is presented in the Marketplace.
+branding:
+  color: green
+  icon: sunrise
 
-on:
-  workflow_dispatch:
-    inputs:
-      release:
-        description: Release type
-        required: true
-        default: patch
-        type: choice
-        options:
-        - major
-        - minor
-        - patch 
+# About this Action.
+author: 'https://github.com/kevinmatthes'
+description: Set the release date of the CITATION.cff to the present day.
+name: cff-release-today
 
-permissions:
-  contents: write
+# The actual behaviour of this Action.
+runs:
+  using: composite
+  steps:
+    - name: Update the release date and save it in a new file.
+      run: |
+        sed \
+            's/^date-released: ....-..-../date-released: '`date +%F`'/g' \
+            CITATION.cff >> CITATION.cff.tmp
 
-jobs:
-  release:
-    name: release
-    runs-on: ubuntu-latest
-    if: contains(fromJson('["major", "minor", "patch"]'), inputs.release)
-    steps:
-      - name: python
-        uses: actions/setup-python@v4.4.0
-        with:
-          python-version: 3.9
-
-      - name: checkout
-        uses: actions/checkout@v3.2.0
-        with:
-          persist-credentials: false
-
-      - name: dependencies
-        uses: py-actions/py-dependency-install@v4.0.0
-
-      - name: user
-        uses: fregante/setup-git-user@v1.1.0
-
-      - name: bump2version
-        run: bump2version ${{ inputs.release }}
-
-      - name: cff-release-today
-        uses: ./
-
-      - name: scriv
-        run: scriv collect
-
-      - name: commit
-        run: git commit -am 'Increment ${{ inputs.release }} version'
-
-      - name: push
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+    - name: Write back the update to the original file.
+      run: mv CITATION.cff.tmp CITATION.cff
 
 ################################################################################

@@ -5,29 +5,13 @@
 Added
 .....
 
-- bump2version:  track CITATION.cff
+- bump2version:  track README
 
-- bump2version:  track Scriv settings
+- create GitHub Action source file
 
-- CHANGELOG fragment directory
+- detailed description to the README
 
-- Dependabot:  GitHub Action setup
-
-- Dependabot:  Python 3 setup
-
-- GitHub Action workflow:  release
-
-- GitHub Action workflow:  Scriv fragment creation
-
-- list of Python 3 software requirements
-
-- Python 3 software requirement:  bump2version
-
-- Python 3 software requirement:  Scriv
-
-- settings:  bump2version
-
-- settings:  Scriv
+- make release workflow use this repository's Action
 
 .. Changed
 .. .......

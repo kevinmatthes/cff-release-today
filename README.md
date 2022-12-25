@@ -38,6 +38,7 @@
 Set the release date of the CITATION.cff to the present day.
 
 1. [License](#license)
+2. [Description](#description)
 
 ## License
 
@@ -61,5 +62,42 @@ follows:
 >
 > You should have received a copy of the GNU General Public License
 > along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+## Description
+
+This GitHub Action will set the entry of the field `date-released` in the
+top-level scope of a CITATION.cff to the present day.  The present day is
+thereby determined by the locale settings of the runner executing this Action.
+
+The update is processed using calls to the following three UNIX applications:
+
+- `sed`
+- `date`
+- `mv`
+
+It is recommended to execute this Action on a Linux runner as tests have shown
+that these applications are available out-of-the-box on GitHub's default Linux
+runner.
+
+This Action does neither accept and / or require any inputs nor it returns any
+outputs.  It only operates on the file named CITATION.cff, stored in the
+respective repository's root directory.  It will succeed even if there is no
+`date-released` field given in the top-level scope of the CITATION.cff to work
+on but it will fail if there is no CITATION.cff in the root directory of the
+respective repository.
+
+The branding settings (green background colour with the symbol `sunrise` as
+icon) were chosen due to the default use case of this Action.  In preparation of
+a release of a new version of a software, the release date needs to be updated.
+These preparations can be considered the "dawn" of the new version.  The colour
+green is often associated with the season spring which also symbolises the
+beginning of something new.
+
+To apply this Action, just add the following line to the step section of a
+GitHub Action workflow job.
+
+```yaml
+      - uses: kevinmatthes/cff-release-today@v0.0.0
+```
 
 <!----------------------------------------------------------------------------->
