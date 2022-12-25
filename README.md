@@ -36,6 +36,8 @@
 
 Set the release date of the CITATION.cff to the present day.
 
+1. [License](#license)
+
 ## License
 
 [![](https://img.shields.io/github/license/kevinmatthes/cff-release-today)](https://github.com/kevinmatthes/cff-release-today)
