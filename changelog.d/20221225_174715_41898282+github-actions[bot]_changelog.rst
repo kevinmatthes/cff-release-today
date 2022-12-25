@@ -2,11 +2,15 @@
 ..
 .. Uncomment the header that is right (remove the leading dots).
 ..
-.. Added
-.. .....
-..
-.. - A bullet item for the Added category.
-..
+Added
+.....
+
+- create this repository
+
+- license:  GPL-3.0
+
+- repository README
+
 .. Changed
 .. .......
 ..
