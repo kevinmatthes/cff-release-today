@@ -69,6 +69,15 @@ This GitHub Action will set the entry of the field `date-released` in the
 top-level scope of a CITATION.cff to the present day.  The present day is
 thereby determined by the locale settings of the runner executing this Action.
 
+The field to be updated needs to match the following regular expression.
+
+```
+^date-release: ....-..-..
+```
+
+Thus, the date must not be enclosed in neither single nor double quotes and must
+be separated from the field's name by exactly one space character.
+
 The update is processed using calls to the following three UNIX applications:
 
 - `sed`
@@ -78,6 +87,8 @@ The update is processed using calls to the following three UNIX applications:
 It is recommended to execute this Action on a Linux runner as tests have shown
 that these applications are available out-of-the-box on GitHub's default Linux
 runner.
+
+This Action requires a Bash shell environment.
 
 This Action does neither accept and / or require any inputs nor it returns any
 outputs.  It only operates on the file named CITATION.cff, stored in the
