@@ -50,4 +50,58 @@ All pending changelog entries are stored in `changelog.d`_.
 
 .. scriv-insert-here
 
+.. _changelog-0.1.0:
+
+0.1.0 — 2022-12-25
+------------------
+
+Added
+.....
+
+- create this repository
+
+- license:  GPL-3.0
+
+- repository README
+
+- CITATION.cff
+
+- GitHub Action workflow:  CFF validation
+
+- bump2version:  track CITATION.cff
+
+- bump2version:  track Scriv settings
+
+- CHANGELOG fragment directory
+
+- Dependabot:  GitHub Action setup
+
+- Dependabot:  Python 3 setup
+
+- GitHub Action workflow:  release
+
+- GitHub Action workflow:  Scriv fragment creation
+
+- list of Python 3 software requirements
+
+- Python 3 software requirement:  bump2version
+
+- Python 3 software requirement:  Scriv
+
+- settings:  bump2version
+
+- settings:  Scriv
+
+- this CHANGELOG
+
+- bump2version:  track README
+
+- create GitHub Action source file
+
+- detailed description to the README
+
+- make release workflow use this repository's Action
+
+- make this Action run in Bash shell environments
+
 .. -------------------------------------------------------------------------- ..
