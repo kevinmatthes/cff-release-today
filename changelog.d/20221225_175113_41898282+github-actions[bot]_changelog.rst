@@ -5,6 +5,10 @@
 Added
 .....
 
+- bump2version:  track CITATION.cff
+
+- bump2version:  track Scriv settings
+
 - CHANGELOG fragment directory
 
 - Dependabot:  GitHub Action setup
