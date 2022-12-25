@@ -32,6 +32,7 @@
 
 ## Summary
 
+[![](https://github.com/kevinmatthes/cff-release-today/workflows/cffconvert/badge.svg)](https://github.com/kevinmatthes/cff-release-today/workflows/cffconvert)
 [![](https://img.shields.io/github/license/kevinmatthes/cff-release-today)](https://github.com/kevinmatthes/cff-release-today)
 
 Set the release date of the CITATION.cff to the present day.
