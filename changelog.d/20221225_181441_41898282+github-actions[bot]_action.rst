@@ -7,6 +7,8 @@ Added
 
 - create GitHub Action source file
 
+- detailed description to the README
+
 - make release workflow use this repository's Action
 
 .. Changed
