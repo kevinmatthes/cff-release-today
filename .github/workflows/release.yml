@@ -72,12 +72,8 @@ jobs:
       - name: bump2version
         run: bump2version ${{ inputs.release }}
 
-      - name: cff
-        run: |
-          sed \
-            's/^date-released: ....-..-../date-released: '`date +%F`'/g' \
-            CITATION.cff >> tmp
-          mv tmp CITATION.cff
+      - name: cff-release-today
+        uses: ./
 
       - name: scriv
         run: scriv collect
