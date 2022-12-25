@@ -5,6 +5,8 @@
 Added
 .....
 
+- bump2version:  track README
+
 - create GitHub Action source file
 
 - detailed description to the README
