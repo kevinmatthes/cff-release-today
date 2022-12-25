@@ -35,6 +35,7 @@ branding:
   icon: sunrise
 
 # About this Action.
+author: 'https://github.com/kevinmatthes'
 description: Set the release date of the CITATION.cff to the present day.
 name: cff-release-today
 
