@@ -48,8 +48,10 @@ runs:
         sed \
             's/^date-released: ....-..-../date-released: '`date +%F`'/g' \
             CITATION.cff >> CITATION.cff.tmp
+      shell: bash
 
     - name: Write back the update to the original file.
       run: mv CITATION.cff.tmp CITATION.cff
+      shell: bash
 
 ################################################################################
