@@ -79,7 +79,7 @@ It is recommended to execute this Action on a Linux runner as tests have shown
 that these applications are available out-of-the-box on GitHub's default Linux
 runner.
 
-This Action does neither accept and / or require any inputs nor returns any
+This Action does neither accept and / or require any inputs nor it returns any
 outputs.  It only operates on the file named CITATION.cff, stored in the
 respective repository's root directory.  It will succeed even if there is no
 `date-released` field given in the top-level scope of the CITATION.cff to work
@@ -92,5 +92,12 @@ a release of a new version of a software, the release date needs to be updated.
 These preparations can be considered the "dawn" of the new version.  The colour
 green is often associated with the season spring which also symbolises the
 beginning of something new.
+
+To apply this Action, just add the following line to the step section of a
+GitHub Action workflow job.
+
+```yaml
+      - uses: kevinmatthes/cff-release-today@v0.0.0
+```
 
 <!----------------------------------------------------------------------------->
