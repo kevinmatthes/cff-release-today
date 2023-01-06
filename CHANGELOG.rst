@@ -50,6 +50,16 @@ All pending changelog entries are stored in `changelog.d`_.
 
 .. scriv-insert-here
 
+.. _changelog-0.1.2:
+
+0.1.2 — 2023-01-06
+------------------
+
+Changed
+.......
+
+- update copyright years to "2022─2023"
+
 .. _changelog-0.1.1:
 
 0.1.1 — 2023-01-06
