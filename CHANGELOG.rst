@@ -50,6 +50,18 @@ All pending changelog entries are stored in `changelog.d`_.
 
 .. scriv-insert-here
 
+.. _changelog-0.1.1:
+
+0.1.1 — 2023-01-06
+------------------
+
+Changed
+.......
+
+- update Dependabot milestones
+
+- Dependabot(deps): Bump actions/checkout from 3.2.0 to 3.3.0
+
 .. _changelog-0.1.0:
 
 0.1.0 — 2022-12-25
