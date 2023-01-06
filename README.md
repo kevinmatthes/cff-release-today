@@ -1,6 +1,6 @@
 <!---------------------- GNU General Public License 3.0 ------------------------
 --                                                                            --
--- Copyright (C) 2022 Kevin Matthes                                           --
+-- Copyright (C) 2022─2023 Kevin Matthes                                      --
 --                                                                            --
 -- This program is free software: you can redistribute it and/or modify       --
 -- it under the terms of the GNU General Public License as published by       --
@@ -22,7 +22,7 @@
 --  AUTHOR      Kevin Matthes
 --  BRIEF       Important information regarding this project.
 --  COPYRIGHT   GPL-3.0
---  DATE        2022
+--  DATE        2022─2023
 --  FILE        README.md
 --  NOTE        See `LICENSE' for full license.
 --
@@ -48,7 +48,7 @@ This project's license is **GPL-3.0**.  The whole license text can be found in
 `LICENSE` in the main directory of this repository.  The brief version is as
 follows:
 
-> Copyright (C) 2022 Kevin Matthes
+> Copyright (C) 2022─2023 Kevin Matthes
 >
 > This program is free software: you can redistribute it and/or modify
 > it under the terms of the GNU General Public License as published by
