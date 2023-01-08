@@ -7,11 +7,15 @@
 ..
 .. - A bullet item for the Added category.
 ..
-.. Changed
-.. .......
-..
-.. - A bullet item for the Changed category.
-..
+Changed
+.......
+
+- bump2version:  track moved Scriv settings file
+
+- Scriv:  move settings to fragment storage
+
+- use own GitHub Action for release preparations
+
 .. Deprecated
 .. ..........
 ..
@@ -22,11 +26,15 @@
 ..
 .. - A bullet item for the Fixed category.
 ..
-.. Removed
-.. .......
-..
-.. - A bullet item for the Removed category.
-..
+Removed
+.......
+
+- Dependabot:  Python 3 setup
+
+- placeholder in Scriv fragment storage
+
+- Python 3 software requirements list
+
 .. Security
 .. ........
 ..
