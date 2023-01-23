@@ -20,16 +20,16 @@
 ################################################################################
 ##
 ##  AUTHOR      Kevin Matthes
-##  BRIEF       Ensure the validity of this repository's CFF files.
+##  BRIEF       The CI of this project.
 ##  COPYRIGHT   GPL-3.0
 ##  DATE        2022─2023
-##  FILE        cffconvert.yml
+##  FILE        ci.yml
 ##  NOTE        See `LICENSE' for full license.
 ##              See `README.md' for project details.
 ##
 ################################################################################
 
-name: cffconvert
+name: ci
 
 on:
   pull_request:
@@ -52,5 +52,17 @@ jobs:
         uses: citation-file-format/cffconvert-github-action@2.0.0
         with:
           args: --validate
+
+  selftest:
+    name: selftest
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3.3.0
+        with:
+          persist-credentials: false
+
+      - name: scriv
+        uses: ./
 
 ################################################################################
