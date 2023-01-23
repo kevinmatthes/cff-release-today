@@ -2,16 +2,18 @@
 ..
 .. Uncomment the header that is right (remove the leading dots).
 ..
-.. Added
-.. .....
-..
-.. - A bullet item for the Added category.
-..
-.. Changed
-.. .......
-..
-.. - A bullet item for the Changed category.
-..
+Added
+.....
+
+- CI:  GitHub Action self-test
+
+Changed
+.......
+
+- CI:  rename CFF validation workflow to ``ci.yml``
+
+- README:  change CFF validation badge to CI badge
+
 .. Deprecated
 .. ..........
 ..
