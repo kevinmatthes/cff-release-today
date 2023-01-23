@@ -50,6 +50,25 @@ All pending changelog entries are stored in `changelog.d`_.
 
 .. scriv-insert-here
 
+.. _changelog-0.2.0:
+
+0.2.0 — 2023-01-23
+------------------
+
+Added
+.....
+
+- CODEOWNERS
+
+- CI:  GitHub Action self-test
+
+Changed
+.......
+
+- CI:  rename CFF validation workflow to ``ci.yml``
+
+- README:  change CFF validation badge to CI badge
+
 .. _changelog-0.1.3:
 
 0.1.3 — 2023-01-08
