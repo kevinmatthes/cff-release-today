@@ -45,9 +45,6 @@ jobs:
       - cffconvert
       - selftest
     runs-on: ubuntu-latest
-    steps:
-      - name: success
-        run: bash -c 'exit 0'
 
   cffconvert:
     name: cffconvert
