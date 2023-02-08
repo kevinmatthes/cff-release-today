@@ -32,6 +32,7 @@
 
 ## Summary
 
+[![](https://bors.tech/images/badge_small.svg)](https://app.bors.tech/repositories/59793)
 [![](https://github.com/kevinmatthes/cff-release-today/workflows/ci/badge.svg)](https://github.com/kevinmatthes/cff-release-today/workflows/ci)
 [![](https://img.shields.io/github/license/kevinmatthes/cff-release-today)](https://github.com/kevinmatthes/cff-release-today)
 
