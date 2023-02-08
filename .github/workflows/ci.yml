@@ -47,7 +47,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: success
-        run: bash -e 0
+        run: bash -c 'exit 0'
 
   cffconvert:
     name: cffconvert
