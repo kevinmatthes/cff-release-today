@@ -72,7 +72,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: scriv
+      - name: cff
         uses: ./
 
 ################################################################################
