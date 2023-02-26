@@ -7,7 +7,11 @@ Added
 
 - Action:  option to validate the CFF before updating it
 
+- CFF:  cite CFF validation Action
+
 - CI:  new test cases for self-test (option ``validate``)
+
+- README:  document new input value
 
 .. Changed
 .. .......
