@@ -45,10 +45,9 @@ runs:
   steps:
     - name: Update the release date.
       run: |
-        sed \
-            's/^date-released: ....-..-../date-released: '`date +%F`'/g' \
-            CITATION.cff >> CITATION.cff.tmp && \
-          mv CITATION.cff.tmp CITATION.cff
+        sed 's/^date-released: ....-..-../date-released: '`date +%F`'/g' \
+            CITATION.cff >> CITATION.cff.tmp \
+          && mv CITATION.cff.tmp CITATION.cff
       shell: bash
 
 ################################################################################
