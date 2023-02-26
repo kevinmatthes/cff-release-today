@@ -68,7 +68,8 @@ jobs:
     name: selftest
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
+      - if: matrix.checkout != 'true'
+        name: checkout
         uses: actions/checkout@v3.3.0
         with:
           persist-credentials: false
@@ -76,9 +77,13 @@ jobs:
       - name: cff
         uses: ./
         with:
+          checkout: ${{ matrix.checkout }}
           validate: ${{ matrix.validate }}
     strategy:
       matrix:
+        checkout:
+          - false
+          - true
         validate:
           - false
           - true
