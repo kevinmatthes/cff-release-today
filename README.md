@@ -99,8 +99,8 @@ respective repository's root directory.  It will succeed even if there is no
 on but it will fail if there is no CITATION.cff in the root directory of the
 respective repository.
 
-To apply this Action, just add the following line to the step section of a
-GitHub Action workflow job.
+To apply this Action, just add the following to the step section of a GitHub
+Action workflow job.
 
 ```yaml
       - uses: kevinmatthes/cff-release-today@v0.3.1
