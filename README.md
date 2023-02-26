@@ -110,8 +110,8 @@ GitHub Action workflow job.
 ### `validate`
 
 This input is **optional**.  When set to `true`, the CITATION.cff will be
-[checked for validity](CITATION.cff#L107-128) before being updated.  This is set
-to `true`, by default.
+[checked for validity](CITATION.cff#L107-L128) before being updated.  This is
+set to `true`, by default.
 
 ## Branding Information
 
