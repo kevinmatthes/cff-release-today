@@ -55,7 +55,7 @@ runs:
       with:
         check: ${{ inputs.validate }}
 
-    - if: inputs.validate
+    - if: inputs.validate == 'true'
       name: Validate the CITATION.cff before updating it.
       uses: citation-file-format/cffconvert-github-action@2.0.0
       with:
