@@ -55,12 +55,12 @@ runs:
   using: composite
   steps:
     - name: Validate the input `checkout`.
-      uses: kevinmatthes/validate-boolean@v0.1.0
+      uses: kevinmatthes/validate-boolean@v0.1.1
       with:
         check: ${{ inputs.checkout }}
 
     - name: Validate the input `validate`.
-      uses: kevinmatthes/validate-boolean@v0.1.0
+      uses: kevinmatthes/validate-boolean@v0.1.1
       with:
         check: ${{ inputs.validate }}
 
