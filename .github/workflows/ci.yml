@@ -81,7 +81,6 @@ jobs:
       matrix:
         validate:
           - false
-          - invalid
           - true
 
   selftest-auto:
