@@ -7,6 +7,8 @@ Added
 
 - Action:  option to validate the CFF before updating it
 
+- CI:  new test cases for self-test (option ``validate``)
+
 .. Changed
 .. .......
 ..
