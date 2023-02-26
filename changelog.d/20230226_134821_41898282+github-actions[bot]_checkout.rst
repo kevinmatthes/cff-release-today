@@ -7,6 +7,10 @@ Added
 
 - Action:  option to checkout the repository
 
+- CI:  new test cases for self-test (option ``checkout``)
+
+- README:  document new input value
+
 .. Changed
 .. .......
 ..
