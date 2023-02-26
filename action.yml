@@ -41,6 +41,10 @@ name: cff-release-today
 
 # The information to be input.
 inputs:
+  checkout:
+    default: false
+    description: Whether to checkout the repository to work on.
+    required: false
   validate:
     default: true
     description: Whether to validate the CITATION.cff before updating it.
@@ -50,10 +54,21 @@ inputs:
 runs:
   using: composite
   steps:
+    - name: Validate the input `checkout`.
+      uses: kevinmatthes/validate-boolean@v0.1.0
+      with:
+        check: ${{ inputs.checkout }}
+
     - name: Validate the input `validate`.
       uses: kevinmatthes/validate-boolean@v0.1.0
       with:
         check: ${{ inputs.validate }}
+
+    - if: inputs.checkout == 'true'
+      name: Checkout the repository to work on.
+      uses: actions/checkout@v3.3.0
+      with:
+        persist-credentials: false
 
     - if: inputs.validate == 'true'
       name: Validate the CITATION.cff before updating it.
