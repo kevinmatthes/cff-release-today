@@ -50,6 +50,28 @@ All pending changelog entries are stored in `changelog.d`_.
 
 .. scriv-insert-here
 
+.. _changelog-0.2.2:
+
+0.2.2 — 2023-02-26
+------------------
+
+Added
+.....
+
+- README:  Bors badge
+
+Changed
+.......
+
+- Action:  unify update steps for main CFF
+
+- README:  adjust branding information description
+
+Fixed
+.....
+
+- Bors:  copyright years of configuration file
+
 .. _changelog-0.2.1:
 
 0.2.1 — 2023-02-08
