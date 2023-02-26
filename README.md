@@ -40,6 +40,7 @@ Set the release date of the CITATION.cff to the present day.
 
 1. [License](#license)
 2. [Description](#description)
+3. [Branding Information](#branding-information)
 
 ## License
 
@@ -87,9 +88,7 @@ The update is processed using calls to the following three UNIX applications:
 
 It is recommended to execute this Action on a Linux runner as tests have shown
 that these applications are available out-of-the-box on GitHub's default Linux
-runner.
-
-This Action requires a Bash shell environment.
+runner.  This Action requires a Bash shell environment.
 
 This Action does neither accept and / or require any inputs nor it returns any
 outputs.  It only operates on the file named CITATION.cff, stored in the
@@ -98,18 +97,18 @@ respective repository's root directory.  It will succeed even if there is no
 on but it will fail if there is no CITATION.cff in the root directory of the
 respective repository.
 
-The branding settings (green background colour with the symbol `sunrise` as
-icon) were chosen due to the default use case of this Action.  In preparation of
-a release of a new version of a software, the release date needs to be updated.
-These preparations can be considered the "dawn" of the new version.  The colour
-green is often associated with the season spring which also symbolises the
-beginning of something new.
-
 To apply this Action, just add the following line to the step section of a
 GitHub Action workflow job.
 
 ```yaml
       - uses: kevinmatthes/cff-release-today@v0.2.1
 ```
+
+## Branding Information
+
+The branding of this Aciton uses the icon `sunrise` on a green background.  The
+sunrise shall symbolise the "dawn" of a new version.  The colour green was
+chosen as it is often associated with the season spring which, again, stands for
+the beginning of something new.
 
 <!----------------------------------------------------------------------------->
