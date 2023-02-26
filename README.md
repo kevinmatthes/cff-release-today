@@ -92,8 +92,7 @@ It is recommended to execute this Action on a Linux runner as tests have shown
 that these applications are available out-of-the-box on GitHub's default Linux
 runner.  This Action requires a Bash shell environment.  There are no ouputs.
 
-This Action does neither accept and / or require any inputs nor it returns any
-outputs.  It only operates on the file named CITATION.cff, stored in the
+This Action only operates on the file named CITATION.cff, stored in the
 respective repository's root directory.  It will succeed even if there is no
 `date-released` field given in the top-level scope of the CITATION.cff to work
 on but it will fail if there is no CITATION.cff in the root directory of the
