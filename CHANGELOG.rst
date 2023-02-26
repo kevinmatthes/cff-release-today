@@ -50,6 +50,16 @@ All pending changelog entries are stored in `changelog.d`_.
 
 .. scriv-insert-here
 
+.. _changelog-0.3.1:
+
+0.3.1 — 2023-02-26
+------------------
+
+Removed
+.......
+
+- GitHub Action workflows:  ``ad-m/github-push-action@v0.6.0`` as dependency
+
 .. _changelog-0.3.0:
 
 0.3.0 — 2023-02-26
