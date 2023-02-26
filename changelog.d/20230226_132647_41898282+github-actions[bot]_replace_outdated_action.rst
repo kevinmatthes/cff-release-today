@@ -22,11 +22,11 @@
 ..
 .. - A bullet item for the Fixed category.
 ..
-.. Removed
-.. .......
-..
-.. - A bullet item for the Removed category.
-..
+Removed
+.......
+
+- GitHub Action workflows:  ``ad-m/github-push-action@v0.6.0`` as dependency
+
 .. Security
 .. ........
 ..
