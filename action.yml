@@ -39,10 +39,28 @@ author: 'https://github.com/kevinmatthes'
 description: Set the release date of the CITATION.cff to the present day.
 name: cff-release-today
 
+# The information to be input.
+inputs:
+  validate:
+    default: true
+    description: Whether to validate the CITATION.cff before updating it.
+    required: false
+
 # The actual behaviour of this Action.
 runs:
   using: composite
   steps:
+    - name: Validate the input `validate`.
+      uses: kevinmatthes/validate-boolean@v0.1.0
+      with:
+        check: ${{ inputs.validate }}
+
+    - if: inputs.validate == 'true'
+      name: Validate the CITATION.cff before updating it.
+      uses: citation-file-format/cffconvert-github-action@2.0.0
+      with:
+        args: --validate
+
     - name: Update the release date.
       run: |
         sed 's/^date-released: ....-..-../date-released: '`date +%F`'/g' \
