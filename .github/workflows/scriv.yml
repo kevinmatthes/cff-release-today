@@ -51,9 +51,6 @@ jobs:
         uses: kevinmatthes/create-scriv-fragment@v0.2.1
 
       - name: push
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+        run: git push
 
 ################################################################################
