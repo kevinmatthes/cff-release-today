@@ -41,6 +41,7 @@ Set the release date of the CITATION.cff to the present day.
 1. [License](#license)
 1. [Description](#description)
 1. [Inputs](#inputs)
+   1. [`checkout`](#checkout)
    1. [`validate`](#validate)
 1. [Branding Information](#branding-information)
 
@@ -106,6 +107,12 @@ GitHub Action workflow job.
 ```
 
 ## Inputs
+
+### `checkout`
+
+This input is **optional**.  When set to `true`, the repository to work will be
+checked out automatically before operating on it.  This is set to `false`, by
+default.
 
 ### `validate`
 
