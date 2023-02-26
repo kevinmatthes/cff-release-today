@@ -50,6 +50,22 @@ All pending changelog entries are stored in `changelog.d`_.
 
 .. scriv-insert-here
 
+.. _changelog-0.3.0:
+
+0.3.0 — 2023-02-26
+------------------
+
+Added
+.....
+
+- Action:  option to validate the CFF before updating it
+
+- CFF:  cite CFF validation Action
+
+- CI:  new test cases for self-test (option ``validate``)
+
+- README:  document new input value
+
 .. _changelog-0.2.2:
 
 0.2.2 — 2023-02-26
