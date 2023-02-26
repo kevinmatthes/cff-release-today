@@ -39,8 +39,10 @@
 Set the release date of the CITATION.cff to the present day.
 
 1. [License](#license)
-2. [Description](#description)
-3. [Branding Information](#branding-information)
+1. [Description](#description)
+1. [Inputs](#inputs)
+   1. [`validate`](#validate)
+1. [Branding Information](#branding-information)
 
 ## License
 
@@ -88,10 +90,9 @@ The update is processed using calls to the following three UNIX applications:
 
 It is recommended to execute this Action on a Linux runner as tests have shown
 that these applications are available out-of-the-box on GitHub's default Linux
-runner.  This Action requires a Bash shell environment.
+runner.  This Action requires a Bash shell environment.  There are no ouputs.
 
-This Action does neither accept and / or require any inputs nor it returns any
-outputs.  It only operates on the file named CITATION.cff, stored in the
+This Action only operates on the file named CITATION.cff, stored in the
 respective repository's root directory.  It will succeed even if there is no
 `date-released` field given in the top-level scope of the CITATION.cff to work
 on but it will fail if there is no CITATION.cff in the root directory of the
@@ -103,6 +104,14 @@ GitHub Action workflow job.
 ```yaml
       - uses: kevinmatthes/cff-release-today@v0.2.2
 ```
+
+## Inputs
+
+### `validate`
+
+This input is **optional**.  When set to `true`, the CITATION.cff will be
+[checked for validity](CITATION.cff#L107-L128) before being updated.  This is
+set to `true`, by default.
 
 ## Branding Information
 

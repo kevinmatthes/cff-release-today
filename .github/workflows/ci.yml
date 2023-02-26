@@ -44,6 +44,7 @@ jobs:
     needs:
       - cffconvert
       - selftest
+      - selftest-auto
     runs-on: ubuntu-latest
     steps:
       - name: success
@@ -65,6 +66,25 @@ jobs:
 
   selftest:
     name: selftest
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3.3.0
+        with:
+          persist-credentials: false
+
+      - name: cff
+        uses: ./
+        with:
+          validate: ${{ matrix.validate }}
+    strategy:
+      matrix:
+        validate:
+          - false
+          - true
+
+  selftest-auto:
+    name: selftest-auto
     runs-on: ubuntu-latest
     steps:
       - name: checkout
