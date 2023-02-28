@@ -7,7 +7,8 @@ Added
 
 - documentation:  software license of ``actions/checkout``
 
-- documentation:  software license of ``citation-file-format/cffconvert-github-action``
+- documentation:  software license of
+  ``citation-file-format/cffconvert-github-action``
 
 .. Changed
 .. .......
