@@ -11,6 +11,10 @@ Added
 
 - CI:  new test cases for self-test (option ``commit``)
 
+- documentation:  software license of ``cut``
+
+- documentation:  software license of ``fregante/setup-git-user``
+
 - README:  document new input value
 
 .. Changed
