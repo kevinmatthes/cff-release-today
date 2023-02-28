@@ -87,7 +87,7 @@ runs:
 
     - if: inputs.commit == 'true'
       name: Configure the Git identity.
-      uses: fregante/setup-git-user@v1.1.0
+      uses: fregante/setup-git-user@v2.0.0
 
     - name: Update the release date.
       run: |
