@@ -32,6 +32,7 @@
 .. -------------------------------------------------------------------------- ..
 ..
 .. _actions/checkout: https://github.com/actions/checkout
+.. _sed: https://git.savannah.gnu.org/cgit/sed.git/
 ..
 .. -------------------------------------------------------------------------- ..
 
@@ -44,8 +45,8 @@ Actions called by the GitHub Action this repository provides.
 Called CLIs
 -----------
 
-``sed``
-.......
+`sed`_
+......
 
 - original:  https://git.savannah.gnu.org/cgit/sed.git/tree/COPYING
 
