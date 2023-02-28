@@ -18,6 +18,8 @@ Added
 
 - documentation:  software license of ``sed``
 
+- README:  document new directory ``LICENSEs``
+
 .. Changed
 .. .......
 ..
