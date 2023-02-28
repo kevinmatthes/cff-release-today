@@ -38,6 +38,8 @@
 .. _citation-file-format/cffconvert-github-action/LICENSE-Apache-2.0: citation-file-format/cffconvert-github-action/LICENSE-Apache-2.0
 .. _coreutils/coreutils/LICENSE-GPL-3.0: coreutils/coreutils/LICENSE-GPL-3.0
 .. _date: https://github.com/coreutils/coreutils
+.. _kevinmatthes/validate-boolean: https://github.com/kevinmatthes/validate-boolean
+.. _kevinmatthes/validate-boolean/LICENSE-GPL-3.0: kevinmatthes/validate-boolean/LICENSE-GPL-3.0
 .. _mv: https://github.com/coreutils/coreutils
 .. _sed: https://git.savannah.gnu.org/cgit/sed.git/
 ..
@@ -47,7 +49,12 @@ LICENSEs
 ========
 
 This directory contains copies of the licenses of the software and GitHub
-Actions called by the GitHub Action this repository provides.
+Actions called by the GitHub Action this repository provides.  The list of those
+dependencies is separated into command line interfaces (CLIs) and GitHub
+Actions.  Each dependency's name is linked with either the original repository
+or a GitHub mirror, if existing.  For each dependency, the link to the original
+license file is given as well as the location of a copy being stored in this
+repository.
 
 Called CLIs
 -----------
@@ -89,5 +96,12 @@ Called GitHub Actions
 - local copy:  `citation-file-format/cffconvert-github-action/LICENSE-Apache-2.0`_
 
 - original license:  https://github.com/citation-file-format/cffconvert-github-action/blob/main/LICENSE
+
+`kevinmatthes/validate-boolean`_
+................................
+
+- local copy:  `kevinmatthes/validate-boolean/LICENSE-GPL-3.0`_
+
+- original license:  https://github.com/kevinmatthes/validate-boolean/blob/main/LICENSE
 
 .. -------------------------------------------------------------------------- ..
