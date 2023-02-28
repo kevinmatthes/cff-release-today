@@ -15,6 +15,8 @@ Added
 
 - documentation:  software license of ``fregante/setup-git-user``
 
+- documentation:  software license of Git
+
 - README:  document new input value
 
 .. Changed
