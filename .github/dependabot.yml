@@ -41,6 +41,6 @@ updates:
     commit-message:
       prefix: Dependabot
       include: scope
-    milestone: 4
+    milestone: 5
 
 ################################################################################
