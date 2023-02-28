@@ -31,6 +31,7 @@
 
 .. -------------------------------------------------------------------------- ..
 ..
+.. _.others/grep/LICENSE-GPL-3.0: .others/grep/LICENSE-GPL-3.0
 .. _.others/sed/LICENSE-GPL-3.0: .others/sed/LICENSE-GPL-3.0
 ..
 .. _actions/checkout: https://github.com/actions/checkout
@@ -48,6 +49,7 @@
 ..
 .. _git: https://github.com/git/git
 .. _git/git/LICENSE-GPL-2.0-only: git/git/LICENSE-GPL-2.0-only
+.. _grep: https://git.savannah.gnu.org/cgit/grep.git
 ..
 .. _kevinmatthes/validate-boolean: https://github.com/kevinmatthes/validate-boolean
 .. _kevinmatthes/validate-boolean/LICENSE-GPL-3.0: kevinmatthes/validate-boolean/LICENSE-GPL-3.0
@@ -93,6 +95,13 @@ Called CLIs
 - local copy:  `git/git/LICENSE-GPL-2.0-only`_
 
 - original license:  https://github.com/git/git/blob/master/COPYING
+
+`grep`_
+.......
+
+- local copy:  `.others/grep/LICENSE-GPL-3.0`_
+
+- original license:  https://git.savannah.gnu.org/cgit/grep.git/tree/COPYING
 
 `mv`_
 .....
