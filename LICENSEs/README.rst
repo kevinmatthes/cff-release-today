@@ -31,6 +31,7 @@
 
 .. -------------------------------------------------------------------------- ..
 ..
+.. _.others/coreutils/LICENSE-GPL-3.0: .others/coreutils/LICENSE-GPL-3.0
 .. _.others/grep/LICENSE-GPL-3.0: .others/grep/LICENSE-GPL-3.0
 .. _.others/sed/LICENSE-GPL-3.0: .others/sed/LICENSE-GPL-3.0
 ..
@@ -39,10 +40,9 @@
 ..
 .. _citation-file-format/cffconvert-github-action: https://github.com/citation-file-format/cffconvert-github-action
 .. _citation-file-format/cffconvert-github-action/LICENSE-Apache-2.0: citation-file-format/cffconvert-github-action/LICENSE-Apache-2.0
-.. _coreutils/coreutils/LICENSE-GPL-3.0: coreutils/coreutils/LICENSE-GPL-3.0
-.. _cut: https://github.com/coreutils/coreutils
+.. _cut: https://git.savannah.gnu.org/cgit/coreutils.git
 ..
-.. _date: https://github.com/coreutils/coreutils
+.. _date: https://git.savannah.gnu.org/cgit/coreutils.git
 ..
 .. _fregante/setup-git-user: https://github.com/fregante/setup-git-user
 .. _fregante/setup-git-user/LICENSE-MIT: fregante/setup-git-user/LICENSE-MIT
@@ -54,7 +54,7 @@
 .. _kevinmatthes/validate-boolean: https://github.com/kevinmatthes/validate-boolean
 .. _kevinmatthes/validate-boolean/LICENSE-GPL-3.0: kevinmatthes/validate-boolean/LICENSE-GPL-3.0
 ..
-.. _mv: https://github.com/coreutils/coreutils
+.. _mv: https://git.savannah.gnu.org/cgit/coreutils.git
 ..
 .. _sed: https://git.savannah.gnu.org/cgit/sed.git/
 ..
@@ -78,16 +78,16 @@ Called CLIs
 `cut`_
 ......
 
-- local copy:  `coreutils/coreutils/LICENSE-GPL-3.0`_
+- local copy:  `.others/coreutils/LICENSE-GPL-3.0`_
 
-- original license:  https://github.com/coreutils/coreutils/blob/master/COPYING
+- original license:  https://git.savannah.gnu.org/cgit/coreutils.git/tree/COPYING
 
 `date`_
 .......
 
-- local copy:  `coreutils/coreutils/LICENSE-GPL-3.0`_
+- local copy:  `.others/coreutils/LICENSE-GPL-3.0`_
 
-- original license:  https://github.com/coreutils/coreutils/blob/master/COPYING
+- original license:  https://git.savannah.gnu.org/cgit/coreutils.git/tree/COPYING
 
 `git`_
 ......
@@ -106,9 +106,9 @@ Called CLIs
 `mv`_
 .....
 
-- local copy:  `coreutils/coreutils/LICENSE-GPL-3.0`_
+- local copy:  `.others/coreutils/LICENSE-GPL-3.0`_
 
-- original license:  https://github.com/coreutils/coreutils/blob/master/COPYING
+- original license:  https://git.savannah.gnu.org/cgit/coreutils.git/tree/COPYING
 
 `sed`_
 ......
