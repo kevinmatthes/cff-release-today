@@ -31,6 +31,7 @@
 
 .. -------------------------------------------------------------------------- ..
 ..
+.. _actions/checkout: https://github.com/actions/checkout
 ..
 .. -------------------------------------------------------------------------- ..
 
@@ -47,5 +48,17 @@ Called CLIs
 .......
 
 - original:  https://git.savannah.gnu.org/cgit/sed.git/tree/COPYING
+
+Called GitHub Actions
+---------------------
+
+`actions/checkout`_
+...................
+
+.. _copy: ./actions/checkout/LICENSE-MIT
+- `copy`_
+
+.. _original: https://github.com/actions/checkout/blob/main/LICENSE
+- `original`_
 
 .. -------------------------------------------------------------------------- ..
