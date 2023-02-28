@@ -73,11 +73,21 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: newbranch
+        run: |
+          git checkout -b \
+          test/selftest-${{ matrix.checkout }}-${{ matrix.validate }}
+
       - name: cff
         uses: ./
         with:
           checkout: ${{ matrix.checkout }}
           validate: ${{ matrix.validate }}
+
+      - name: delbranch
+        run: |
+          git branch -d \
+          test/selftest-${{ matrix.checkout }}-${{ matrix.validate }}
     strategy:
       matrix:
         checkout:
