@@ -77,10 +77,14 @@ jobs:
         uses: ./
         with:
           checkout: ${{ matrix.checkout }}
+          commit: ${{ matrix.commit }}
           validate: ${{ matrix.validate }}
     strategy:
       matrix:
         checkout:
+          - false
+          - true
+        commit:
           - false
           - true
         validate:
