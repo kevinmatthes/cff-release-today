@@ -31,6 +31,8 @@
 
 .. -------------------------------------------------------------------------- ..
 ..
+.. _./.others/sed/LICENSE-GPL-3.0: ./.others/sed/LICENSE-GPL-3.0
+.. _./actions/checkout/LICENSE-MIT: ./actions/checkout/LICENSE-MIT
 .. _actions/checkout: https://github.com/actions/checkout
 .. _sed: https://git.savannah.gnu.org/cgit/sed.git/
 ..
@@ -48,8 +50,9 @@ Called CLIs
 `sed`_
 ......
 
-.. _original: https://git.savannah.gnu.org/cgit/sed.git/tree/COPYING
-- `original`_
+- local copy: `./.others/sed/LICENSE-GPL-3.0`_
+
+- original license:  https://git.savannah.gnu.org/cgit/sed.git/tree/COPYING
 
 Called GitHub Actions
 ---------------------
@@ -57,10 +60,8 @@ Called GitHub Actions
 `actions/checkout`_
 ...................
 
-.. _copy: ./actions/checkout/LICENSE-MIT
-- `copy`_
+- local copy: `./actions/checkout/LICENSE-MIT`_
 
-.. _original: https://github.com/actions/checkout/blob/main/LICENSE
-- `original`_
+- original license: https://github.com/actions/checkout/blob/main/LICENSE
 
 .. -------------------------------------------------------------------------- ..
