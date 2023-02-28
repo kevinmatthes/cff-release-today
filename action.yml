@@ -96,7 +96,7 @@ runs:
         && mv CITATION.cff.tmp CITATION.cff
       shell: bash
 
-    - if: inputs.commit == `true`
+    - if: inputs.commit == 'true'
       name: Commit the changes.
       run: |
         git add CITATION.cff \
