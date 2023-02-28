@@ -44,6 +44,7 @@
 .. _date: https://github.com/coreutils/coreutils
 ..
 .. _fregante/setup-git-user: https://github.com/fregante/setup-git-user
+.. _fregante/setup-git-user/LICENSE-MIT: fregante/setup-git-user/LICENSE-MIT
 ..
 .. _kevinmatthes/validate-boolean: https://github.com/kevinmatthes/validate-boolean
 .. _kevinmatthes/validate-boolean/LICENSE-GPL-3.0: kevinmatthes/validate-boolean/LICENSE-GPL-3.0
