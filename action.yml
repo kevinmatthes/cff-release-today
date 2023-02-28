@@ -77,7 +77,7 @@ runs:
       name: Checkout the repository to work on.
       uses: actions/checkout@v3.3.0
       with:
-        persist-credentials: ${{ inputs.commit }}
+        persist-credentials: false
 
     - if: inputs.validate == 'true'
       name: Validate the CITATION.cff before updating it.
@@ -85,7 +85,7 @@ runs:
       with:
         args: --validate
 
-    - if: inputs.commit == 'true' && inputs.checkout == 'false'
+    - if: inputs.commit == 'true'
       name: Configure the Git identity.
       uses: fregante/setup-git-user@v1.1.0
 
