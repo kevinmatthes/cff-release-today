@@ -1,0 +1,50 @@
+.. A new scriv changelog fragment.
+..
+.. Uncomment the header that is right (remove the leading dots).
+..
+Added
+.....
+
+- Action:  option to commit the changes
+
+- CFF:  cite Git identity setup Action
+
+- CI:  new test cases for self-test (option ``commit``)
+
+- documentation:  software license of ``cut``
+
+- documentation:  software license of ``fregante/setup-git-user``
+
+- documentation:  software license of Git
+
+- documentation:  software license of ``grep``
+
+- README:  document new input value
+
+Changed
+.......
+
+- documentation:  software license of ``date``
+
+- documentation:  software license of ``mv``
+
+.. Deprecated
+.. ..........
+..
+.. - A bullet item for the Deprecated category.
+..
+.. Fixed
+.. .....
+..
+.. - A bullet item for the Fixed category.
+..
+.. Removed
+.. .......
+..
+.. - A bullet item for the Removed category.
+..
+.. Security
+.. ........
+..
+.. - A bullet item for the Security category.
+..

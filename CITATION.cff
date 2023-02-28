@@ -126,5 +126,19 @@ references:
     license: "Apache-2.0"
     title: "cffconvert GitHub Action"
     version: 2.0.0
+  - type: software
+    abstract: GitHub Action that sets the git user and email to enable commiting
+    authors:
+      - alias: fregante
+        email: me@fregante.com
+        family-names: Brigante
+        given-names: Federico
+        website: https://fregante.com
+    date-released: 2023-02-28
+    license: MIT
+    repository-code: https://github.com/fregante/setup-git-user
+    title: setup-git-user
+    url: https://github.com/fregante/setup-git-user
+    version: 2.0.0
 
 ################################################################################
