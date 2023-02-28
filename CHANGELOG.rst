@@ -50,6 +50,40 @@ All pending changelog entries are stored in `changelog.d`_.
 
 .. scriv-insert-here
 
+.. _changelog-0.4.0:
+
+0.4.0 — 2023-02-28
+------------------
+
+Added
+.....
+
+- Action:  option to checkout the repository
+
+- CI:  new test cases for self-test (option ``checkout``)
+
+- README:  document new input value
+
+- documentation:  software license of ``actions/checkout``
+
+- documentation:  software license of
+  ``citation-file-format/cffconvert-github-action``
+
+- documentation:  software license of ``date``
+
+- documentation:  software license of ``kevinmatthes/validate-boolean``
+
+- documentation:  software license of ``mv``
+
+- documentation:  software license of ``sed``
+
+- README:  document new directory ``LICENSEs``
+
+Changed
+.......
+
+- README:  adjust wording of Action application description
+
 .. _changelog-0.3.1:
 
 0.3.1 — 2023-02-26
