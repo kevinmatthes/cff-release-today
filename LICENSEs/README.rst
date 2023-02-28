@@ -31,9 +31,9 @@
 
 .. -------------------------------------------------------------------------- ..
 ..
-.. _./.others/sed/LICENSE-GPL-3.0: ./.others/sed/LICENSE-GPL-3.0
-.. _./actions/checkout/LICENSE-MIT: ./actions/checkout/LICENSE-MIT
-.. _./coreutils/coreutils/LICENSE-GPL-3.0: ./coreutils/coreutils/LICENSE-GPL-3.0
+.. _.others/sed/LICENSE-GPL-3.0: .others/sed/LICENSE-GPL-3.0
+.. _actions/checkout/LICENSE-MIT: actions/checkout/LICENSE-MIT
+.. _coreutils/coreutils/LICENSE-GPL-3.0: coreutils/coreutils/LICENSE-GPL-3.0
 .. _actions/checkout: https://github.com/actions/checkout
 .. _date: https://github.com/coreutils/coreutils
 .. _mv: https://github.com/coreutils/coreutils
@@ -53,21 +53,21 @@ Called CLIs
 `date`_
 .......
 
-- local copy:  `./coreutils/coreutils/LICENSE-GPL-3.0`_
+- local copy:  `coreutils/coreutils/LICENSE-GPL-3.0`_
 
 - original license:  https://github.com/coreutils/coreutils/blob/master/COPYING
 
 `mv`_
 .....
 
-- local copy:  `./coreutils/coreutils/LICENSE-GPL-3.0`_
+- local copy:  `coreutils/coreutils/LICENSE-GPL-3.0`_
 
 - original license:  https://github.com/coreutils/coreutils/blob/master/COPYING
 
 `sed`_
 ......
 
-- local copy:  `./.others/sed/LICENSE-GPL-3.0`_
+- local copy:  `.others/sed/LICENSE-GPL-3.0`_
 
 - original license:  https://git.savannah.gnu.org/cgit/sed.git/tree/COPYING
 
@@ -77,7 +77,7 @@ Called GitHub Actions
 `actions/checkout`_
 ...................
 
-- local copy:  `./actions/checkout/LICENSE-MIT`_
+- local copy:  `actions/checkout/LICENSE-MIT`_
 
 - original license:  https://github.com/actions/checkout/blob/main/LICENSE
 
