@@ -117,7 +117,7 @@ default.
 
 This input is **optional**.  When set to `true`, the changes to the CITATION.cff
 will be committed after the [Git identity was set to the GitHub Actions
-bot](CITATION.cff#L129-L141).  This is set to `false`, by default.
+bot](CITATION.cff#L129-L142).  This is set to `false`, by default.
 
 ### `validate`
 
