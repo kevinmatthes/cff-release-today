@@ -21,11 +21,13 @@ Added
 
 - README:  document new input value
 
-.. Changed
-.. .......
-..
-.. - A bullet item for the Changed category.
-..
+Changed
+.......
+
+- documentation:  software license of ``date``
+
+- documentation:  software license of ``mv``
+
 .. Deprecated
 .. ..........
 ..
