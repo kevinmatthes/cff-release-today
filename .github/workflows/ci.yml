@@ -86,7 +86,7 @@ jobs:
 
       - name: delbranch
         run: |
-          git branch -d \
+          git checkout ${{ github.ref }} && git branch -d \
           test/selftest-${{ matrix.checkout }}-${{ matrix.validate }}
     strategy:
       matrix:
