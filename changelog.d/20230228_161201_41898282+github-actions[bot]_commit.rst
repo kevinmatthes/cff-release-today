@@ -7,6 +7,12 @@ Added
 
 - Action:  option to commit the changes
 
+- CFF:  cite Git identity setup Action
+
+- CI:  new test cases for self-test (option ``commit``)
+
+- README:  document new input value
+
 .. Changed
 .. .......
 ..
