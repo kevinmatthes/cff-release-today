@@ -127,6 +127,7 @@ references:
     title: "cffconvert GitHub Action"
     version: 2.0.0
   - type: software
+    abstract: GitHub Action that sets the git user and email to enable commiting
     authors:
       - alias: fregante
         email: me@fregante.com
