@@ -68,9 +68,9 @@ Actions called by the GitHub Action this repository provides.  The list of those
 dependencies is separated into command line interfaces (CLIs) and GitHub
 Actions.
 
-Each dependency's name is linked with either the original repository or a GitHub
-mirror, if existing.  For each dependency, the link to the original license file
-is given as well as the location of a copy being stored in this repository.
+Each dependency's name is linked with the original repository.  For each
+dependency, the link to the original license file is given as well as the
+location of a copy being stored in this repository.
 
 Called CLIs
 -----------
