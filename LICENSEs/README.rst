@@ -37,7 +37,15 @@
 LICENSEs
 ========
 
-This directory contains copies of the licenses of the software, libraries and /
-or GitHub Actions called in the main software of this repository.
+This directory contains copies of the licenses of the software and GitHub
+Actions called by the GitHub Action this repository provides.
+
+Called CLIs
+-----------
+
+``sed``
+.......
+
+- original:  https://git.savannah.gnu.org/cgit/sed.git/tree/COPYING
 
 .. -------------------------------------------------------------------------- ..
