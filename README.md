@@ -42,6 +42,7 @@ Set the release date of the CITATION.cff to the present day.
 1. [Description](#description)
 1. [Inputs](#inputs)
    1. [`checkout`](#checkout)
+   1. [`commit`](#commit)
    1. [`validate`](#validate)
 1. [Branding Information](#branding-information)
 
@@ -86,15 +87,10 @@ The field to be updated needs to match the following regular expression.
 Thus, the date must not be enclosed in neither single nor double quotes and must
 be separated from the field's name by exactly one space character.
 
-The update is processed using calls to the following three UNIX applications:
-
-- `sed`
-- `date`
-- `mv`
-
 It is recommended to execute this Action on a Linux runner as tests have shown
-that these applications are available out-of-the-box on GitHub's default Linux
-runner.  This Action requires a Bash shell environment.  There are no ouputs.
+that the required applications are available out-of-the-box on GitHub's default
+Linux runner.  This Action requires a Bash shell environment.  There are no
+ouputs.
 
 This Action only operates on the file named CITATION.cff, stored in the
 respective repository's root directory.  It will succeed even if there is no
@@ -116,6 +112,12 @@ Action workflow job.
 This input is **optional**.  When set to `true`, the repository to work will be
 checked out automatically before operating on it.  This is set to `false`, by
 default.
+
+### `commit`
+
+This input is **optional**.  When set to `true`, the changes to the CITATION.cff
+will be committed after the [Git identity was set to the GitHub Actions bot]
+(CITATION.cff#L129-L141).  This is set to `false`, by default.
 
 ### `validate`
 
