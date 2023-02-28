@@ -17,6 +17,8 @@ Added
 
 - documentation:  software license of Git
 
+- documentation:  software license of ``grep``
+
 - README:  document new input value
 
 .. Changed
