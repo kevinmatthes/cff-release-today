@@ -32,15 +32,24 @@
 .. -------------------------------------------------------------------------- ..
 ..
 .. _.others/sed/LICENSE-GPL-3.0: .others/sed/LICENSE-GPL-3.0
+..
 .. _actions/checkout: https://github.com/actions/checkout
 .. _actions/checkout/LICENSE-MIT: actions/checkout/LICENSE-MIT
+..
 .. _citation-file-format/cffconvert-github-action: https://github.com/citation-file-format/cffconvert-github-action
 .. _citation-file-format/cffconvert-github-action/LICENSE-Apache-2.0: citation-file-format/cffconvert-github-action/LICENSE-Apache-2.0
 .. _coreutils/coreutils/LICENSE-GPL-3.0: coreutils/coreutils/LICENSE-GPL-3.0
+.. _cut: https://github.com/coreutils/coreutils
+..
 .. _date: https://github.com/coreutils/coreutils
+..
+.. _fregante/setup-git-user: https://github.com/fregante/setup-git-user
+..
 .. _kevinmatthes/validate-boolean: https://github.com/kevinmatthes/validate-boolean
 .. _kevinmatthes/validate-boolean/LICENSE-GPL-3.0: kevinmatthes/validate-boolean/LICENSE-GPL-3.0
+..
 .. _mv: https://github.com/coreutils/coreutils
+..
 .. _sed: https://git.savannah.gnu.org/cgit/sed.git/
 ..
 .. -------------------------------------------------------------------------- ..
@@ -59,6 +68,13 @@ is given as well as the location of a copy being stored in this repository.
 
 Called CLIs
 -----------
+
+`cut`_
+......
+
+- local copy:  `coreutils/coreutils/LICENSE-GPL-3.0`_
+
+- original license:  https://github.com/coreutils/coreutils/blob/master/COPYING
 
 `date`_
 .......
@@ -97,6 +113,13 @@ Called GitHub Actions
 - local copy:  `citation-file-format/cffconvert-github-action/LICENSE-Apache-2.0`_
 
 - original license:  https://github.com/citation-file-format/cffconvert-github-action/blob/main/LICENSE
+
+`fregante/setup-git-user`_
+..........................
+
+- local copy:  `fregante/setup-git-user/LICENSE-MIT`_
+
+- original license:  https://github.com/fregante/setup-git-user/blob/main/license
 
 `kevinmatthes/validate-boolean`_
 ................................
