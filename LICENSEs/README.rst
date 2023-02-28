@@ -32,9 +32,11 @@
 .. -------------------------------------------------------------------------- ..
 ..
 .. _.others/sed/LICENSE-GPL-3.0: .others/sed/LICENSE-GPL-3.0
-.. _actions/checkout/LICENSE-MIT: actions/checkout/LICENSE-MIT
-.. _coreutils/coreutils/LICENSE-GPL-3.0: coreutils/coreutils/LICENSE-GPL-3.0
 .. _actions/checkout: https://github.com/actions/checkout
+.. _actions/checkout/LICENSE-MIT: actions/checkout/LICENSE-MIT
+.. _citation-file-format/cffconvert-github-action: https://github.com/citation-file-format/cffconvert-github-action
+.. _citation-file-format/cffconvert-github-action/LICENSE-Apache-2.0: citation-file-format/cffconvert-github-action/LICENSE-Apache-2.0
+.. _coreutils/coreutils/LICENSE-GPL-3.0: coreutils/coreutils/LICENSE-GPL-3.0
 .. _date: https://github.com/coreutils/coreutils
 .. _mv: https://github.com/coreutils/coreutils
 .. _sed: https://git.savannah.gnu.org/cgit/sed.git/
@@ -80,5 +82,12 @@ Called GitHub Actions
 - local copy:  `actions/checkout/LICENSE-MIT`_
 
 - original license:  https://github.com/actions/checkout/blob/main/LICENSE
+
+`citation-file-format/cffconvert-github-action`_
+................................................
+
+- local copy:  `citation-file-format/cffconvert-github-action/LICENSE-Apache-2.0`_
+
+- original license:  https://github.com/citation-file-format/cffconvert-github-action/blob/main/LICENSE
 
 .. -------------------------------------------------------------------------- ..
