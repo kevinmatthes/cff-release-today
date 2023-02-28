@@ -48,7 +48,8 @@ Called CLIs
 `sed`_
 ......
 
-- original:  https://git.savannah.gnu.org/cgit/sed.git/tree/COPYING
+.. _original: https://git.savannah.gnu.org/cgit/sed.git/tree/COPYING
+- `original`_
 
 Called GitHub Actions
 ---------------------
