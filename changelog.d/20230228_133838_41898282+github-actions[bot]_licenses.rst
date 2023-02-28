@@ -10,6 +10,14 @@ Added
 - documentation:  software license of
   ``citation-file-format/cffconvert-github-action``
 
+- documentation:  software license of ``date``
+
+- documentation:  software license of ``kevinmatthes/validate-boolean``
+
+- documentation:  software license of ``mv``
+
+- documentation:  software license of ``sed``
+
 .. Changed
 .. .......
 ..
