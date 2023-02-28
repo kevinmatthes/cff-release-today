@@ -46,6 +46,9 @@
 .. _fregante/setup-git-user: https://github.com/fregante/setup-git-user
 .. _fregante/setup-git-user/LICENSE-MIT: fregante/setup-git-user/LICENSE-MIT
 ..
+.. _git: https://github.com/git/git
+.. _git/git/LICENSE-GPL-2.0-only: git/git/LICENSE-GPL-2.0-only
+..
 .. _kevinmatthes/validate-boolean: https://github.com/kevinmatthes/validate-boolean
 .. _kevinmatthes/validate-boolean/LICENSE-GPL-3.0: kevinmatthes/validate-boolean/LICENSE-GPL-3.0
 ..
@@ -83,6 +86,13 @@ Called CLIs
 - local copy:  `coreutils/coreutils/LICENSE-GPL-3.0`_
 
 - original license:  https://github.com/coreutils/coreutils/blob/master/COPYING
+
+`git`_
+......
+
+- local copy:  `git/git/LICENSE-GPL-2.0-only`_
+
+- original license:  https://github.com/git/git/blob/master/COPYING
 
 `mv`_
 .....
