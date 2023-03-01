@@ -47,7 +47,7 @@
 .. _fregante/setup-git-user: https://github.com/fregante/setup-git-user
 .. _fregante/setup-git-user/LICENSE-MIT: fregante/setup-git-user/LICENSE-MIT
 ..
-.. _git: https://github.com/git/git
+.. _Git: https://github.com/git/git
 .. _git/git/LICENSE-GPL-2.0-only: git/git/LICENSE-GPL-2.0-only
 .. _grep: https://git.savannah.gnu.org/cgit/grep.git
 ..
@@ -89,7 +89,7 @@ Called CLIs
 
 - original license:  https://git.savannah.gnu.org/cgit/coreutils.git/tree/COPYING
 
-`git`_
+`Git`_
 ......
 
 - local copy:  `git/git/LICENSE-GPL-2.0-only`_
