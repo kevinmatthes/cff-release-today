@@ -7,11 +7,11 @@
 ..
 .. - A bullet item for the Added category.
 ..
-.. Changed
-.. .......
-..
-.. - A bullet item for the Changed category.
-..
+Changed
+.......
+
+- Dependabot(deps): Bump kevinmatthes/validate-boolean from 0.1.1 to 0.1.2
+
 .. Deprecated
 .. ..........
 ..
