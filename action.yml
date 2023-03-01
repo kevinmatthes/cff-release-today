@@ -63,22 +63,22 @@ runs:
   using: composite
   steps:
     - name: Validate the input `checkout`.
-      uses: kevinmatthes/validate-boolean@v0.1.1
+      uses: kevinmatthes/validate-boolean@v0.1.2
       with:
         check: ${{ inputs.checkout }}
 
     - name: Validate the input `commit`.
-      uses: kevinmatthes/validate-boolean@v0.1.1
+      uses: kevinmatthes/validate-boolean@v0.1.2
       with:
         check: ${{ inputs.commit }}
 
     - name: Validate the input `push`.
-      uses: kevinmatthes/validate-boolean@v0.1.1
+      uses: kevinmatthes/validate-boolean@v0.1.2
       with:
         check: ${{ inputs.push }}
 
     - name: Validate the input `validate`.
-      uses: kevinmatthes/validate-boolean@v0.1.1
+      uses: kevinmatthes/validate-boolean@v0.1.2
       with:
         check: ${{ inputs.validate }}
 
