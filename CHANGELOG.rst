@@ -50,6 +50,16 @@ All pending changelog entries are stored in `changelog.d`_.
 
 .. scriv-insert-here
 
+.. _changelog-0.5.1:
+
+0.5.1 — 2023-03-01
+------------------
+
+Changed
+.......
+
+- Dependabot(deps): Bump kevinmatthes/validate-boolean from 0.1.1 to 0.1.2
+
 .. _changelog-0.5.0:
 
 0.5.0 — 2023-03-01
