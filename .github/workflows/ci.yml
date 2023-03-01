@@ -78,7 +78,6 @@ jobs:
         with:
           checkout: ${{ matrix.checkout }}
           commit: ${{ matrix.commit }}
-          push: ${{ matrix.push }}
           validate: ${{ matrix.validate }}
     strategy:
       matrix:
@@ -86,9 +85,6 @@ jobs:
           - false
           - true
         commit:
-          - false
-          - true
-        push:
           - false
           - true
         validate:
