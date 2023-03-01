@@ -50,6 +50,41 @@ All pending changelog entries are stored in `changelog.d`_.
 
 .. scriv-insert-here
 
+.. _changelog-0.5.0:
+
+0.5.0 — 2023-03-01
+------------------
+
+Added
+.....
+
+- Action:  option to commit the changes
+
+- CFF:  cite Git identity setup Action
+
+- CI:  new test cases for self-test (option ``commit``)
+
+- documentation:  software license of ``cut``
+
+- documentation:  software license of ``fregante/setup-git-user``
+
+- documentation:  software license of Git
+
+- documentation:  software license of ``grep``
+
+- README:  document new input value
+
+- Action:  option to push committed changes
+
+- README:  document new input value
+
+Changed
+.......
+
+- documentation:  software license of ``date``
+
+- documentation:  software license of ``mv``
+
 .. _changelog-0.4.0:
 
 0.4.0 — 2023-02-28
