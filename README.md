@@ -43,6 +43,7 @@ Set the release date of the CITATION.cff to the present day.
 1. [Inputs](#inputs)
    1. [`checkout`](#checkout)
    1. [`commit`](#commit)
+   1. [`push`](#push)
    1. [`validate`](#validate)
 1. [Branding Information](#branding-information)
 
@@ -110,20 +111,27 @@ Action workflow job.
 ### `checkout`
 
 This input is **optional**.  When set to `true`, the repository to work will be
-checked out automatically before operating on it.  This is set to `false`, by
-default.
+checked out automatically before operating on it.  This option is set to
+`false`, by default.
 
 ### `commit`
 
 This input is **optional**.  When set to `true`, the changes to the CITATION.cff
 will be committed after the [Git identity was set to the GitHub Actions
-bot](CITATION.cff#L129-L142).  This is set to `false`, by default.
+bot](CITATION.cff#L129-L142).  This option is set to `false`, by default.
+
+### `push`
+
+This input is **optional**.  When set to `true`, the changes to the CITATION.cff
+will be committed and pushed to the respective repository.  This option
+overrides the settings for `checkout` and `commit`.  This option is set to
+`false`, by default.
 
 ### `validate`
 
 This input is **optional**.  When set to `true`, the CITATION.cff will be
-[checked for validity](CITATION.cff#L107-L128) before being updated.  This is
-set to `true`, by default.
+[checked for validity](CITATION.cff#L107-L128) before being updated.  This
+option is set to `true`, by default.
 
 ## Branding Information
 
