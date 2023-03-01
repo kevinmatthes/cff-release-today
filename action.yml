@@ -49,6 +49,10 @@ inputs:
     default: false
     description: Whether to checkout the repository to work on.
     required: false
+  push:
+    default: false
+    description: Whether to push the committed changes.
+    required: false
   validate:
     default: true
     description: Whether to validate the CITATION.cff before updating it.
@@ -68,16 +72,21 @@ runs:
       with:
         check: ${{ inputs.commit }}
 
+    - name: Validate the input `push`.
+      uses: kevinmatthes/validate-boolean@v0.1.1
+      with:
+        check: ${{ inputs.push }}
+
     - name: Validate the input `validate`.
       uses: kevinmatthes/validate-boolean@v0.1.1
       with:
         check: ${{ inputs.validate }}
 
-    - if: inputs.checkout == 'true'
+    - if: inputs.checkout == 'true' || inputs.push == 'true'
       name: Checkout the repository to work on.
       uses: actions/checkout@v3.3.0
       with:
-        persist-credentials: false
+        persist-credentials: ${{ inputs.push }}
 
     - if: inputs.validate == 'true'
       name: Validate the CITATION.cff before updating it.
@@ -85,7 +94,7 @@ runs:
       with:
         args: --validate
 
-    - if: inputs.commit == 'true'
+    - if: inputs.commit == 'true' || inputs.push == 'true'
       name: Configure the Git identity.
       uses: fregante/setup-git-user@v2.0.0
 
@@ -96,7 +105,7 @@ runs:
         && mv CITATION.cff.tmp CITATION.cff
       shell: bash
 
-    - if: inputs.commit == 'true'
+    - if: inputs.commit == 'true' || inputs.push == 'true'
       name: Commit the changes.
       run: |
         git add CITATION.cff \
@@ -104,6 +113,11 @@ runs:
                "`git config --list \
                  | grep user\.name \
                  | cut -d= -f2`:  Update CFF release date"
+      shell: bash
+
+    - if: inputs.push == 'true'
+      name: Push the changes.
+      run: git push
       shell: bash
 
 ################################################################################
