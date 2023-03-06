@@ -50,6 +50,16 @@ All pending changelog entries are stored in `changelog.d`_.
 
 .. scriv-insert-here
 
+.. _changelog-0.5.2:
+
+0.5.2 — 2023-03-06
+------------------
+
+Fixed
+.....
+
+- documentation:  "Git" instead of "git" in README of ``LICENSEs``
+
 .. _changelog-0.5.1:
 
 0.5.1 — 2023-03-01

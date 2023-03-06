@@ -103,7 +103,7 @@ To apply this Action, just add the following to the step section of a GitHub
 Action workflow job.
 
 ```yaml
-      - uses: kevinmatthes/cff-release-today@v0.5.1
+      - uses: kevinmatthes/cff-release-today@v0.5.2
 ```
 
 ## Inputs

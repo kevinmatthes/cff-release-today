@@ -34,8 +34,8 @@ cff-version: 1.2.0
 message: Please cite this software using these meta data.
 
 # Version information.
-date-released: 2023-03-01
-version: 0.5.1
+date-released: 2023-03-06
+version: 0.5.2
 
 # Project information.
 abstract: Set the release date of the CITATION.cff to the present day.
