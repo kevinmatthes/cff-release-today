@@ -84,7 +84,7 @@ runs:
 
     - if: inputs.checkout == 'true' || inputs.push == 'true'
       name: Checkout the repository to work on.
-      uses: actions/checkout@v3.4.0
+      uses: actions/checkout@v3.5.0
       with:
         persist-credentials: ${{ inputs.push }}
 
